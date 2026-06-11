@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Surya Laharisha | Portfolio</title>
+
+<style>
+*{
+    margin:0;
+    padding:0;
+    box-sizing:border-box;
+    font-family:'Segoe UI',sans-serif;
+}
+
+body{
+    background:#0f172a;
+    color:white;
+    line-height:1.6;
+}
+
+header{
+    height:100vh;
+    display:flex;
+    flex-direction:column;
+    justify-content:center;
+    align-items:center;
+    text-align:center;
+    padding:20px;
+}
+
+header h1{
+    font-size:4rem;
+    color:#38bdf8;
+}
+
+header h2{
+    margin-top:10px;
+    color:#cbd5e1;
+}
+
+.btn{
+    display:inline-block;
+    margin:15px 10px;
+    padding:12px 25px;
+    background:#38bdf8;
+    color:black;
+    text-decoration:none;
+    border-radius:8px;
+    font-weight:bold;
+}
+
+section{
+    padding:80px 10%;
+}
+
+.section-title{
+    text-align:center;
+    margin-bottom:40px;
+    font-size:2.5rem;
+    color:#38bdf8;
+}
+
+.about p{
+    max-width:900px;
+    margin:auto;
+    text-align:center;
+    font-size:1.1rem;
+}
+
+.skills{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(200px,1fr));
+    gap:20px;
+}
+
+.skill-card{
+    background:#1e293b;
+    padding:20px;
+    border-radius:10px;
+    text-align:center;
+    transition:0.3s;
+}
+
+.skill-card:hover{
+    transform:translateY(-5px);
+}
+
+.projects{
+    display:grid;
+    grid-template-columns:repeat(auto-fit,minmax(300px,1fr));
+    gap:25px;
+}
+
+.project-card{
+    background:#1e293b;
+    padding:25px;
+    border-radius:12px;
+}
+
+.project-card h3{
+    color:#38bdf8;
+    margin-bottom:10px;
+}
+
+.project-card p{
+    color:#cbd5e1;
+}
+
+.achievement-list{
+    max-width:800px;
+    margin:auto;
+}
+
+.achievement-list li{
+    margin-bottom:15px;
+    font-size:1.1rem;
+}
+
+.contact{
+    text-align:center;
+}
+
+.contact a{
+    color:#38bdf8;
+    text-decoration:none;
+}
+
+footer{
+    text-align:center;
+    padding:20px;
+    background:#020617;
+    margin-top:50px;
+}
+</style>
+</head>
+
+<body>
+
+<header>
+    <h1>Surya Laharisha</h1>
+    <h2>AI & Machine Learning Enthusiast | Computer Vision Developer</h2>
+
+    <div>
+        <a href="YOUR_RESUME_LINK" class="btn">Resume</a>
+        <a href="YOUR_GITHUB_LINK" class="btn">GitHub</a>
+        <a href="YOUR_LINKEDIN_LINK" class="btn">LinkedIn</a>
+        <a href="YOUR_LEETCODE_LINK" class="btn">LeetCode</a>
+    </div>
+</header>
+
+<section class="about">
+    <h2 class="section-title">About Me</h2>
+    <p>
+        I am a Computer Science undergraduate at BVRIT with a CGPA of 9.28.
+        My interests include Artificial Intelligence, Machine Learning,
+        Deep Learning, Computer Vision, and Data Structures & Algorithms.
+        I enjoy building intelligent systems that solve real-world problems.
+    </p>
+</section>
+
+<section>
+    <h2 class="section-title">Skills</h2>
+
+    <div class="skills">
+
+        <div class="skill-card">
+            <h3>Languages</h3>
+            <p>C, C++, Java, Python</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>AI / ML</h3>
+            <p>TensorFlow, PyTorch, OpenCV, Scikit-Learn</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Web</h3>
+            <p>HTML, CSS, JavaScript</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Core</h3>
+            <p>DSA, OOPs, Problem Solving</p>
+        </div>
+
+        <div class="skill-card">
+            <h3>Tools</h3>
+            <p>GitHub, VS Code, Colab, Jupyter</p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Projects</h2>
+
+    <div class="projects">
+
+        <div class="project-card">
+            <h3>Deepfake Detection System</h3>
+            <p>
+                Developed a deepfake detection model using XceptionNet and
+                Autoencoder-GAN. Processed over 190K+ images and achieved
+                strong performance in distinguishing real and fake images.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Mango Harvest Readiness Prediction</h3>
+            <p>
+                Built a computer vision system to predict mango harvest
+                readiness using image analysis and machine learning.
+            </p>
+        </div>
+
+        <div class="project-card">
+            <h3>Bleed Sense</h3>
+            <p>
+                Developed a healthcare monitoring application to detect
+                internal bleeding risks using machine learning techniques.
+            </p>
+        </div>
+
+    </div>
+</section>
+
+<section>
+    <h2 class="section-title">Achievements</h2>
+
+    <ul class="achievement-list">
+        <li>📄 Published a paper at IEEE ICSCSA 2025 Conference.</li>
+        <li>🏆 Participated in Hackfiniti 2K25 Hackathon.</li>
+        <li>🎓 NPTEL Java Programming Certification.</li>
+        <li>🎓 Cisco Programming Essentials in C++.</li>
+        <li>🎓 Smart Interviews DSA Certification.</li>
+        <li>🎓 IITH Workshop on AI & ML.</li>
+    </ul>
+
+</section>
+
+<section>
+    <h2 class="section-title">Education</h2>
+
+    <div style="text-align:center">
+        <h3>BVRIT, Narsapur</h3>
+        <p>B.Tech in Computer Science & Engineering</p>
+        <p>CGPA: 9.28 / 10</p>
+        <p>2023 - 2027</p>
+    </div>
+
+</section>
+
+<section class="contact">
+    <h2 class="section-title">Contact</h2>
+
+    <p>Email: 23211a05v1@gmail.com</p>
+    <p>Phone: +91-8106395933</p>
+
+    <br>
+
+    <a href="https://www.linkedin.com/in/laharisha-surya-b89165293">LinkedIn</a> |
+    <a href="https://github.com/laharisha1120">GitHub</a> |
+    <a href="https://leetcode.com/u/laharisha1120/">LeetCode</a>
+</section>
+
+<footer>
+    <p>© 2026 Surya Laharisha | AI & ML Portfolio</p>
+</footer>
+
+</body>
+</html>
